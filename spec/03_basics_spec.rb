@@ -54,6 +54,6 @@ describe 'crazy stuff on arrays' do
     expect(magic_array([1, [2, 3], 4, 5, 6, 23, 31, [1, 2, 3]]))
       .to eq([2, 4, 8, 10, 46, 62])
     expect(magic_array([[32, 54], [48, 12], [21, [1, 2, [3]]], 7, 8]))
-      .to eq([2, 4, 14, 16, 64])
+      .to eq([2, 4, 14, 16, 64,108])
   end
 end
